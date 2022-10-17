@@ -1,0 +1,200 @@
+/* general stuff */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    max-width: 1000px;
+    margin: 100px auto 50px;
+    padding: 0px 50px;
+}
+
+header {
+    height: 80px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.nav_link {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.nav_link:hover {
+    color: aqua;
+}
+
+h1 {
+    color: white;
+    font-family: 'Silkscreen', cursive;
+    font-size: 60px;
+    margin: 25px 0px;
+}
+
+.subtitle {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 38px;
+    margin-bottom: 80px;
+}
+
+.subtitle b {
+    font-weight: 700;
+}
+
+/* general page content stuff */
+
+section {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+section a {
+    color: white;
+    font-weight: 600;
+}
+
+section a:hover {
+    color: aqua;
+}
+
+/* home page */
+
+#home_content img {
+    width: 250px;
+}
+
+.container {
+    /* border-style: solid;
+    border-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: fit-content;
+    margin: 20px 50px;
+}
+
+.text {
+    padding-left: 25px;
+}
+
+/* about me page */
+
+#nico_wizard {
+    width: 80%;
+    display: block;
+    margin: 30px auto;
+}
+
+/* resume page */
+
+#resume_jump {
+    margin: auto;
+    width: fit-content;
+}
+
+#resume_jump a {
+    padding: 0px 6px;
+}
+
+#resume_jump a:hover {
+    color: aqua;
+}
+
+.resume_section_title h2 {
+    font-size: 24px;
+    display: inline-block;
+    width: 88%;
+}
+
+.resume_section_title h3 {
+    font-size: 16px;
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}
+
+#resume ul {
+    list-style-type: square;
+}
+
+#resume li {
+    font-size: 16px;
+}
+
+#resume p {
+    font-size: 16px;
+}
+
+#skill_table {
+    width: 100%;
+    margin: 0px;
+}
+
+.resume_skills img {
+    height: 18px;
+    width: auto;
+    padding-top: 4px;
+}
+
+.resume_skills td {
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+#download_resume {
+    font-size: 24px;
+    width: fit-content;
+    margin: 100px auto;
+}
+
+/* contact form */
+
+#contact_form {
+    margin: 0px auto;
+    width: 50%;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+::placeholder {
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+}
+
+#message {
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+}
+
+footer {
+    height: 100px;
+    width: fit-content;
+    margin: 60px auto 0px;
+}
+
+footer img {
+    height: 40px;
+    width: auto;
+    padding: 5px 30px;
+}
