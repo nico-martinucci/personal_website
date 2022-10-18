@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    background-image: url("background.jpg");
+    /* background-image: url("background.jpg");*/
+    background-color: #3d3d5c;
     background-size: cover;
     max-width: 1000px;
     margin: 100px auto 50px;
@@ -37,8 +38,8 @@ nav {
 }
 
 h1 {
-    color: white;
-    font-family: 'Silkscreen', cursive;
+    color: #ff00ff;
+    font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     margin: 25px 0px;
 }
