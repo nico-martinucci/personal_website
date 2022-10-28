@@ -162,6 +162,20 @@ section a:hover {
     margin: 100px auto;
 }
 
+/* projects page */
+
+.project img {
+    width: 400px;
+}
+
+.caption {
+    position: relative;
+    bottom: 80px;
+    display: inline-block;
+    width: 550px;
+    padding-left: 20px;
+}
+
 /* contact form */
 
 #contact_form {
@@ -192,6 +206,7 @@ footer {
     height: 100px;
     width: fit-content;
     margin: 60px auto 0px;
+    display: block;
 }
 
 footer img {
